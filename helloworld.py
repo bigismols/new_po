@@ -26,3 +26,12 @@ def virus():
 
 virus()
 
+health = 100
+
+def die():
+    if health < 0:
+        return print("you died nigga")
+    else:
+        pass
+
+die()
